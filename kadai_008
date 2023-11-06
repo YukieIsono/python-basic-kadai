@@ -1,0 +1,31 @@
+var1 = 30 
+var2 = 3
+var3 = 5
+
+def fizz_buzz(var):
+    if var % 3 == 0 and var % 5 ==0:
+        return "FizzBuzz"
+    elif var % 3 ==0:
+        return "Fizz"
+    elif var % 5 == 0:
+        return "Buzz" 
+    else:
+        return var
+print(f"var1: {fizz_buzz(var1)}") 
+print(f"var2: {fizz_buzz(var2)}")                  
+print(f"var3: {fizz_buzz(var3)}")
+#もしくは
+var = 30
+
+output = ""
+
+if var % 3 == 0:
+    output += "Fizz"
+if var % 5 == 0:
+    output += "Buzz"
+
+if output:
+    print(output)    
+  
+else:
+    print(var) 

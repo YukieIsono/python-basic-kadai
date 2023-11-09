@@ -5,7 +5,7 @@ for element in my_list:
 print(element)
 #while文の場合は
 my_list = ["水","金","地","火","木","土","天","海","冥"]
- 
+#リストの要素を添字で使って処理 
 index = 0
 while index < len(my_list):
   element = my_list[index]
